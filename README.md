@@ -23,7 +23,7 @@ Generate threat models that tell a story — not just tables of threats, but nar
 
 ```bash
 lola mod add https://github.com/RedHatProductSecurity/agentic-threat-modeling.git
-lola install threat-model -a claude-code
+lola install agentic-threat-modeling -a claude-code
 ```
 
 ### Install Locally (Development)
@@ -32,7 +32,7 @@ lola install threat-model -a claude-code
 git clone git@github.com:RedHatProductSecurity/agentic-threat-modeling.git
 cd agentic-threat-modeling
 lola mod add ./module
-lola install threat-model -a claude-code
+lola install agentic-threat-modeling -a claude-code
 ```
 
 ## Usage
